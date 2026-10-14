@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import { PWARegister } from "@/components/PWARegister";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/next"
 import settings from "../../data/site-settings.js";
 import "./globals.css";
 
@@ -79,6 +81,8 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           {children}
           <PWARegister />
+          <SpeedInsights />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
