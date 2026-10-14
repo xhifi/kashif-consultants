@@ -9,7 +9,7 @@ import { editorialPages } from "../../../../data/pages.js";
 import settings from "../../../../data/site-settings.js";
 
 export const metadata = pageMetadata({
-  title: "Contact Kashif Consultants | Discuss Your Business Plans",
+  title: "Contact KS Consultants | Discuss Your Business Plans",
   description:
     "Start a conversation about commercial property, business setup, retail and wholesale strategy or digital systems. Serving London and businesses across the UK.",
   path: "/contact",

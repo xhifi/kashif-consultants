@@ -8,7 +8,7 @@ import { pageMetadata } from "../../../../data/metadata.js";
 import { editorialPages } from "../../../../data/pages.js";
 
 export const metadata = pageMetadata({
-  title: "Business Consulting Services | Kashif Consultants",
+  title: "Business Consulting Services | KS Consultants",
   description:
     "Explore commercial property procurement, operational setup, digital systems integration and retail and wholesale strategy across London and the UK.",
   path: "/services",

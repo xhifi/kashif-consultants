@@ -38,7 +38,7 @@ function makeJsonLd(settings, services) {
   const business = {
     "@type": "ProfessionalService",
     "@id": `${siteUrl}/#business`,
-    name: identity.websiteName || "Kashif Consultants",
+    name: identity.websiteName || "KS Consultants",
     url: siteUrl,
     description:
       settings.seo?.metaDescription ||
@@ -90,7 +90,7 @@ function makeJsonLd(settings, services) {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: identity.websiteName || "Kashif Consultants",
+        name: identity.websiteName || "KS Consultants",
         publisher: { "@id": `${siteUrl}/#business` },
         inLanguage: "en-GB",
       },
@@ -100,7 +100,7 @@ function makeJsonLd(settings, services) {
         url: siteUrl,
         name:
           settings.seo?.metaTitle ||
-          "Kashif Consultants | Business setup, procurement & operations",
+          "KS Consultants | Business setup, procurement & operations",
         description: settings.seo?.metaDescription || homepage.shortDescription,
         isPartOf: { "@id": `${siteUrl}/#website` },
         about: { "@id": `${siteUrl}/#business` },
@@ -117,7 +117,7 @@ export const metadata = (() => {
   const siteUrl = seo.siteUrl;
   const title =
     seo.metaTitle ||
-    "Kashif Consultants | Business setup, procurement & operations";
+    "KS Consultants | Business setup, procurement & operations";
   const description =
     seo.metaDescription ||
     homepage.shortDescription ||
@@ -128,7 +128,7 @@ export const metadata = (() => {
       absolute: title,
     },
     description,
-    applicationName: identity.websiteName || "Kashif Consultants",
+    applicationName: identity.websiteName || "KS Consultants",
     alternates: {
       canonical: "/",
     },
@@ -136,7 +136,7 @@ export const metadata = (() => {
       type: "website",
       locale: "en_GB",
       url: "/",
-      siteName: identity.websiteName || "Kashif Consultants",
+      siteName: identity.websiteName || "KS Consultants",
       title,
       description,
     },
@@ -344,7 +344,7 @@ export default function HomePage() {
               )}
               <p className="story-intro">
                 {homepage.introduction ||
-                  "Led by a senior consultant with 21 years of industry experience, Kashif Consultants provides start-to-finish business consulting and end-to-end launch and scaling support across the UK."}
+                  "Led by a senior consultant with 21 years of industry experience, KS Consultants provides start-to-finish business consulting and end-to-end launch and scaling support across the UK."}
               </p>
               <div className="why-list" id="why-us">
                 {whyPoints.map((point) => (

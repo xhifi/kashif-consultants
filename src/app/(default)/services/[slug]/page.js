@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
   if (!service) return {};
 
   return pageMetadata({
-    title: `${service.title} | Kashif Consultants`,
+    title: `${service.title} | KS Consultants`,
     description: service.description,
     path: `/services/${service.slug}`,
   });

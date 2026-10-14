@@ -1,4 +1,4 @@
-const CACHE_NAME = "kashif-consultants-v1";
+const CACHE_NAME = "ks-consultants-v2";
 const OFFLINE_URL = "/offline";
 const APP_SHELL = [
   "/",
@@ -24,7 +24,8 @@ self.addEventListener("activate", (event) => {
           names
             .filter(
               (name) =>
-                name.startsWith("kashif-consultants-") &&
+                (name.startsWith("kashif-consultants-") ||
+                  name.startsWith("ks-consultants-")) &&
                 name !== CACHE_NAME,
             )
             .map((name) => caches.delete(name)),

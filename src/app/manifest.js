@@ -4,7 +4,7 @@ export default function manifest() {
   return {
     id: "/",
     name: settings.identity.websiteName,
-    short_name: "Kashif",
+    short_name: "KS Consultants",
     description: settings.seo.metaDescription,
     start_url: "/",
     scope: "/",

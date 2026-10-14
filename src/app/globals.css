@@ -24,6 +24,9 @@
   --lime: #d5ed75;
   --font-display: var(--font-bricolage-grotesque), "Arial", sans-serif;
   --font-body: var(--font-dm-sans), "Arial", sans-serif;
+  --brand-sprite-background: #18243a;
+  --brand-sprite-foreground: #f4efe6;
+  --brand-sprite-accent: #d5ed75;
 }
 
 :root[data-theme="dark"] {
@@ -47,6 +50,9 @@
   --accent: #e77a5d;
   --accent-dark: #ffab90;
   --navy: #0b111c;
+  --brand-sprite-background: #f4f0e8;
+  --brand-sprite-foreground: #18243a;
+  --brand-sprite-accent: #c44220;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,6 +77,9 @@
     --accent: #e77a5d;
     --accent-dark: #ffab90;
     --navy: #0b111c;
+    --brand-sprite-background: #f4f0e8;
+    --brand-sprite-foreground: #18243a;
+    --brand-sprite-accent: #c44220;
   }
 }
 
@@ -344,10 +353,11 @@ button {
 }
 
 .site-brand-image {
-  width: auto;
-  max-width: 160px;
+  width: 40px;
+  flex: 0 0 auto;
   height: 40px;
   object-fit: contain;
+  transition: color 220ms ease, fill 220ms ease, stroke 220ms ease;
 }
 
 .site-brand-copy {
@@ -1404,6 +1414,11 @@ button {
   width: 35px;
   height: 35px;
   font-size: 12px;
+}
+
+.footer-brand .site-brand-image {
+  width: 35px;
+  height: 35px;
 }
 
 .footer-top > p {

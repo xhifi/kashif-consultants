@@ -24,7 +24,7 @@ export const metadata = {
   description: settings.seo.metaDescription,
   applicationName: settings.identity.websiteName,
   icons: {
-    icon: "/pwa-icon-192.png",
+    icon: "/brand-mark.svg",
     apple: "/pwa-icon-192.png",
   },
   manifest: "/manifest.webmanifest",

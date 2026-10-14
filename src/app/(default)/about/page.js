@@ -5,9 +5,9 @@ import { pageMetadata } from "../../../../data/metadata.js";
 import { editorialPages } from "../../../../data/pages.js";
 
 export const metadata = pageMetadata({
-  title: "About Kashif Consultants | 21 Years of Business Experience",
+  title: "About KS Consultants | 21 Years of Business Experience",
   description:
-    "Meet Kashif Consultants: senior-led business consulting for commercial premises, operational setup and digital systems across London and the UK.",
+    "Meet KS Consultants: senior-led business consulting for commercial premises, operational setup and digital systems across London and the UK.",
   path: "/about",
 });
 

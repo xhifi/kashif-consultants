@@ -1,16 +1,16 @@
 const siteSettings = {
   copyrightYear: 2026,
   identity: {
-    websiteName: "Kashif Consultants",
-    logoMonogram: "KC",
-    logoImageUrl: "",
+    websiteName: "KS Consultants",
+    logoMonogram: "KSC",
+    logoImageUrl: "/brand-mark.svg",
     tagline: "From first plan to first sale.",
     location: "London, United Kingdom",
     serviceArea: "London · Working across the UK",
   },
   contact: {
-    email: "",
-    phone: "",
+    email: "info@ksconsultants.co.uk",
+    phone: "+44 7399 692177",
     address: "London, United Kingdom",
     socialLinks: [],
   },
@@ -22,7 +22,7 @@ const siteSettings = {
       "National business consultation, procurement and operational setup specialists.",
     introHeading: "From a blank canvas to an open door.",
     introduction:
-      "Led by a senior consultant with 21 years of industry experience, Kashif Consultants provides start-to-finish business consulting and end-to-end launch and scaling support across the UK. We specialise in sourcing, securing and physically setting up commercial retail and wholesale premises. Backed by a BSc (Hons) in Business Computing Systems, we pair commercial property procurement with modern, automated digital architecture — taking your business from a blank canvas to an operational, revenue-generating reality.",
+      "Led by a senior consultant with 21 years of industry experience, KS Consultants provides start-to-finish business consulting and end-to-end launch and scaling support across the UK. We specialise in sourcing, securing and physically setting up commercial retail and wholesale premises. Backed by a BSc (Hons) in Business Computing Systems, we pair commercial property procurement with modern, automated digital architecture — taking your business from a blank canvas to an operational, revenue-generating reality.",
     heroImageUrl:
       "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1800&q=85",
     heroImageAlt: "A carefully arranged modern retail interior",
@@ -131,7 +131,7 @@ const siteSettings = {
   ],
   seo: {
     siteUrl: "https://kashifconsultants.co.uk",
-    metaTitle: "Kashif Consultants | Business setup, procurement & operations",
+    metaTitle: "KS Consultants | Business setup, procurement & operations",
     metaDescription:
       "End-to-end business consulting, commercial property procurement and operational setup for ambitious businesses across London and the UK.",
   },

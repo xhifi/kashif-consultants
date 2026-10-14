@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, MapPin, Phone, Mail } from "lucide-react";
+import { BrandSprite } from "@/components/BrandSprite";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export function SiteFooter({ settings, services }) {
@@ -11,10 +12,12 @@ export function SiteFooter({ settings, services }) {
       <div className="container-wide">
         <div className="footer-top">
           <Link className="footer-brand" href="/">
-            <span className="site-brand-mark" aria-hidden="true">
-              {identity.logoMonogram || "KC"}
-            </span>
-            <span>{identity.websiteName || "Kashif Consultants"}</span>
+            <BrandSprite
+              className="site-brand-image"
+              monogram={identity.logoMonogram || "KSC"}
+              src={identity.logoImageUrl}
+            />
+            <span>{identity.websiteName || "KS Consultants"}</span>
           </Link>
           <p>{settings.homepage?.shortDescription}</p>
           <Link className="footer-top-link" href="/contact">
@@ -87,7 +90,7 @@ export function SiteFooter({ settings, services }) {
         </div>
         <div className="footer-bottom">
           <span>
-            © {settings.copyrightYear} {identity.websiteName || "Kashif Consultants"}.
+            © {settings.copyrightYear} {identity.websiteName || "KS Consultants"}.
             All rights reserved.
           </span>
           <span>{identity.tagline || "Thoughtful business setup, from start to finish."}</span>

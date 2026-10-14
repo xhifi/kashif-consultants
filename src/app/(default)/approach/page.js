@@ -6,9 +6,9 @@ import { pageMetadata } from "../../../../data/metadata.js";
 import { editorialPages } from "../../../../data/pages.js";
 
 export const metadata = pageMetadata({
-  title: "Our Approach | Kashif Consultants",
+  title: "Our Approach | KS Consultants",
   description:
-    "See how Kashif Consultants connects property, operations and digital systems into a practical plan for launching or growing a UK retail or wholesale business.",
+    "See how KS Consultants connects property, operations and digital systems into a practical plan for launching or growing a UK retail or wholesale business.",
   path: "/approach",
 });
 

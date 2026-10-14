@@ -126,10 +126,10 @@ export const editorialPages = {
       "Share where you are in the process and what you want the business to become. We’ll start with a focused conversation.",
   },
   about: {
-    eyebrow: "About Kashif Consultants",
+    eyebrow: "About KS Consultants",
     title: "Commercial experience. Connected thinking.",
     description:
-      "Kashif Consultants helps entrepreneurs and established operators plan, source and set up physical retail and wholesale businesses across London and the UK.",
+      "KS Consultants helps entrepreneurs and established operators plan, source and set up physical retail and wholesale businesses across London and the UK.",
     paragraphs: [
       "Led by a senior consultant with 21 years of industry experience, the consultancy brings together commercial property procurement, operational planning and digital systems. The aim is straightforward: help clients move from a blank canvas to a business that is ready to operate.",
       "A BSc (Hons) in Business Computing Systems informs a practical, systems-minded approach to modern commerce. From point-of-sale and stock workflows to the operational details of a new unit, technology is considered as part of the business—not bolted on at the end.",

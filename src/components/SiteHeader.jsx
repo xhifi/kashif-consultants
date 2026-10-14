@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import {
@@ -21,7 +20,7 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import imagePlaceholder from "../../data/image-placeholder.js";
+import { BrandSprite } from "@/components/BrandSprite";
 
 const menuContent = {
   Services: {
@@ -59,28 +58,15 @@ const menuContent = {
 };
 
 function Brand({ identity }) {
-  const monogram = identity.logoMonogram || "KC";
-
   return (
-    <Link href="/" className="site-brand" aria-label={`${identity.websiteName || "Kashif Consultants"} home`}>
-      {identity.logoImageUrl ? (
-        <Image
-          alt=""
-          className="site-brand-image"
-          height={40}
-          placeholder="blur"
-          blurDataURL={imagePlaceholder}
-          src={identity.logoImageUrl}
-          unoptimized
-          width={160}
-        />
-      ) : (
-        <span className="site-brand-mark" aria-hidden="true">
-          {monogram}
-        </span>
-      )}
+    <Link href="/" className="site-brand" aria-label={`${identity.websiteName || "KS Consultants"} home`}>
+      <BrandSprite
+        className="site-brand-image"
+        monogram={identity.logoMonogram || "KSC"}
+        src={identity.logoImageUrl}
+      />
       <span className="site-brand-copy">
-        <span className="site-brand-name">{identity.websiteName || "Kashif Consultants"}</span>
+        <span className="site-brand-name">{identity.websiteName || "KS Consultants"}</span>
         <span className="site-brand-tagline">
           {identity.tagline || "Business consultants"}
         </span>
