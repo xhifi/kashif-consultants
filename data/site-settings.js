@@ -130,7 +130,7 @@ const siteSettings = {
     },
   ],
   seo: {
-    siteUrl: "https://kashifconsultants.co.uk",
+    siteUrl: "https://ksconsultants.co.uk",
     metaTitle: "KS Consultants | Business setup, procurement & operations",
     metaDescription:
       "End-to-end business consulting, commercial property procurement and operational setup for ambitious businesses across London and the UK.",
